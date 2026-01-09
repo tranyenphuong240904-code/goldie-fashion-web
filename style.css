@@ -1,1 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f6f1eb;
+  color: #333;
+}
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 40px;
+}
+
+.logo {
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.hero {
+  height: 90vh;
+  background: #d8cfc4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.lookbook {
+  padding: 80px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.img-box {
+  height: 320px;
+  background: #ccc;
+}
+
+.brand {
+  padding: 80px;
+  background: #eee6dc;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 13px;
+}

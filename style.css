@@ -67,3 +67,49 @@ body {
   padding: 40px;
   font-size: 13px;
 }
+.about-hero {
+  height: 60vh;
+  background: #cfc6bb;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+}
+
+.about-content {
+  display: flex;
+  padding: 80px;
+  gap: 60px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about-image {
+  flex: 1;
+  height: 420px;
+  background: #ddd;
+}
+
+.about-vision {
+  padding: 80px;
+  background: #eee6dc;
+}
+
+.about-vision h2 {
+  font-size: 32px;
+}

@@ -170,3 +170,39 @@ body {
   font-size: 13px;
   color: #666;
 }
+/* FULLSCREEN HERO */
+.hero-full {
+  height: 100vh;
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Overlay nhẹ để chữ nổi */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+}
+
+/* Text */
+.hero-text {
+  position: relative;
+  padding: 80px 100px;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.hero-text p {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #ddd;
+}

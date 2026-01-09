@@ -113,3 +113,26 @@ body {
 .about-vision h2 {
   font-size: 32px;
 }
+.collection-hero {
+  height: 70vh;
+  background: #d8cfc4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection-hero h1 {
+  font-size: 52px;
+}
+
+.collection-grid {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.collection-item {
+  height: 380px;
+  background: #ccc;
+}
